@@ -1,0 +1,41 @@
+.header__nav {
+ display: flex;
+ color: #000080;
+ margin: 20px;
+}
+
+.header__nav--list {
+ margin-left: auto
+}
+
+.header__nav--item {
+ display: inline-block;
+ padding: 10px;
+}
+
+.content {
+ position: relative;
+}
+
+.content__img img {
+ width: 550px;
+ position: absolute;
+ top: 100px;
+ right: 0;
+ z-index: 10;
+}
+
+.content__txt {
+ font-size: 40px;
+ position: absolute;
+ top: 360px;
+}
+
+.content__box {
+ width: 900px;
+ height: 150px;
+ background-color: #000080;
+ position: absolute;
+ top: 400px;
+ z-index: -10;
+}
