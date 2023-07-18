@@ -2,15 +2,22 @@
  display: flex;
  color: #000080;
  margin: 20px;
+ align-items: center;
+
 }
 
 .header__nav--list {
  margin-left: auto
+ 
 }
 
-.header__nav--item {
+.header__nav--item  {
  display: inline-block;
  padding: 10px;
+}
+
+.header__nav--item a {
+ color: #000080;
 }
 
 .content {
