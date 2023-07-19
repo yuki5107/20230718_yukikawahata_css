@@ -35,7 +35,7 @@ h2 {
     width: 1150px;
     height: 150px;
     background-color: #000080;
-    position: relative;
+    position: fixed;
     top: 500px;
 }
 
@@ -43,11 +43,11 @@ h2 {
     width: 60%;
     position: absolute;
     bottom: 70px;
-    left: 750px;
+    left: 757px;
 }
 
 .content__txt {
-    font-size: 80px;
+    font-size: 76px;
     position: absolute;
-    top: 500px;
+    top: 420px;
 }
